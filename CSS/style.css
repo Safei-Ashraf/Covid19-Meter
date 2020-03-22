@@ -120,6 +120,10 @@ FOOTER
         -o-border-radius: 34px 34px 0px 0px;
         padding: 20px;
 }
+#main-footer
+{
+    font-size: 1.3rem;
+}
 #footer-span{
     font-style: italic;
     border-bottom: 1px solid black;
@@ -128,19 +132,16 @@ FOOTER
 #copy
 {
     font: italic;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: bolder;
     text-shadow: 5px 2px 5px black;
     background: -webkit-linear-gradient(#1E90FF, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#main-footer
-{
-    font-size: 1.3rem;
-}
+
 #saf{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 
