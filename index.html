@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+	<!--META Tags-->
+	<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+	<meta charset='UTF-8'>   
+	<meta property="og:title" content="Corona infection detector">
+	<meta property="og:description" content="...">
+	<meta property="og:image" content="https://2.bp.blogspot.com/-pPJ6JFD09w0/XnaVqDPW5YI/AAAAAAAAC4I/ThrWDabdK1sUC_2VCF40ynXx1TF6c7n8ACNcBGAsYHQ/s1600/88.JPG">
+	<meta property="og:url" content="http://symttt.com/">
+	<!--Styling Links-->
+		<!--BOOTSTRAP 4.4.1-->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!--Google Font Amiri-->
+		<link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+		<!--Local Stylesheet-->
+		<link rel="stylesheet" href="/CSS/style.css">
+
+		<title>نقاط تقييم لكورونا</title>
+</head>
+<body>
+	<header>
+		<!--Creating Navbar-->
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light ml-auto mb-5 px-5">
+			<a class="navbar-brand"  href="index.html"> 
+				<img id="logo" class="ml-2" src='https://static3.stuff.co.nz/virus-box-1abfdff4.png'> 
+			</a>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-md-auto font-weight-bold">
+					<li class="nav-item active">
+
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#footer">إتصل بنا</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="moreinfo.html" tabindex="-1" aria-disabled="true">معلومات إضافية</a>
+					</li>
+					</ul>
+			  </div>
+			<a  id="brand" class="navbar-brand font-weight-bold font-italic">مقياس كورونا</a>
+			<button class="navbar-toggler col-11" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  </nav>
+	</header>
+
+		<div class="container" id="main-content">
+		<!-- 	<img id="bg-image" src="https://ifpnews.com/wp-content/uploads/2016/12/Health-Tourism.jpg"> -->
+			<div id="numberQuestions" class="text-center">
+			<p>عدد الأسئلة المتبقية:  <span id="tmr">9</span> </p>
+
+			</div>
+			<div id="container" class="form-group"></div>
+
+
+			<div id="hidden">
+				<div class="cls">
+					<h3> هل لديك ارتفاع في درجة الحرارة فوق 38 درجة؟ </h3>
+					<img id="showimg" src="https://media.datacenterdynamics.com/media/images/wissanu99.width-358.jpg" />
+					<br>
+
+
+					<button type="button" class="btn btn-primary btn-lg" onclick="getScore(2)">نعم</button>
+					<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+				</div>
+
+			<div class="cls">
+				<h3>هل لديك سعال شديد او متزايد؟</h3>
+
+				<img id="showimg" src="https://d140vvwqovffrf.cloudfront.net/images/chapters/@2x-artwork/2489.jpg" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(2)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+
+			<div class="cls">
+				<h3>هل لديك احتقان شديد بالحلق؟</h3>
+
+				<img id="showimg" src="https://haeat.com/wp-content/uploads/2019/09/714.jpg" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(1)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+			<div class="cls">
+				<h3>هل لديك قيء أو إسهال؟</h3>
+
+				<img id="showimg" src="https://tababah.net/wp-content/uploads/2019/06/diarrhea.jpg" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+
+
+			<div class="cls">
+				<h3>هل يوجد مرض مزمن سكر - ضغط - قلب - كلى - كبد ؟؟</h3>
+
+				<img id="showimg" src="https://www.hopemine.com/wp-content/uploads/2019/05/images-3.png" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(1)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+
+
+
+			<div class="cls">
+				<h3>هل سافرت داخل أو خارج مصر؟ شرم الشيخ أوروبا آسيا...</h3>
+
+				<img id="showimg" src="https://m.aawsat.com/sites/default/files/styles/article_img_top/public/2019/08/18/1565784245952100700.jpg?itok=deUFQKjH" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(5)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+
+			<div class="cls">
+				<h3>هل خالطت شخص مصاب بحالة التهاب تنفسي حاد؟</h3>
+
+				<img id="showimg" src="https://cdn.altibbi.com/cdn/large/1/27/56e815a8f167earticle_79_1.png" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(4)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+
+			<div class="cls">
+				<h3>هل قمت بزيارة لمكان صحي مستشفى أو غيره ثبت فيه حالة ايجابية لفيروس كورونا؟</h3>
+
+
+				<img id="showimg" src="https://media.falsoo.com/large/2019/9/12/201909120343154315.jpg" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(3)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+
+			<div class="cls">
+				<h3>هل أنت أحد العاملين بالقطاع الصحي أو العزل الصحي؟</h3>
+
+
+				<img id="showimg" src="https://gfx4arab.com/wp-content/uploads/2017/12/hand-drwan-smiley-doctors_23-2147657907.jpg" />
+				<br>
+
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(2)">نعم</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">لا</button>
+			</div>
+
+
+			<div class="cls">
+					<p id="pnts"></p>
+					<button type="button" id="result" class="btn btn-primary btn-lg" onclick="showResult()">اعرض النتيجة</button>
+					</div>
+
+
+
+					</div>
+
+					<p id="myp">  عدد نقاطك حتى الآن: <span id="dv">0</span> </p>
+
+
+					<div id="frst">
+
+
+					في حالة ظهور اي اعراض، عليك استعمال نظام حساب النقاط التالي 
+
+					<br><br>
+					ارتفاع درجة الحراره أكثر من ٣٨ (2)
+					<br><br>
+					سعال شديد او متزايد (2)
+					<br><br>
+					احتقان شديد بالحلق (1)
+					<br><br>
+					قئ او اسهال (0)
+					<br><br>
+					مرض مزمن : سكر او ضغط او قلب او كلي الخ (1)
+					<br><br>
+					سفر داخل او خارج مصر : مثال شرم الشيخ / أوروبا ( 5 )
+					<br><br>
+					مخالطة لحالة التهاب تنفسي حاد (4 )
+					<br><br>
+					زيارة مكان صحي ثبت فيه وجود حالة موجبه (3 )
+					<br><br>
+					ان تكون أحد العاملين بالقطاع الصحي او العزل الصحي (2)
+					<br><br>
+					<hr><br>
+					اذا كان مجموع النقاط
+					<hr>
+					4 او اقل : التزم بالبيت ( عزل ذاتي )
+					<br><br>
+					5 : استشر الطبيب هاتفيا
+					<br><br>
+					6 او اكثر : برجاء التواصل مع الجهات المعنية رقم الطواريء (105) لاحتمالية الاصابه، الحاجه للعلاج و بدء إجراءات العزل الصحي
+					<br><br>
+
+			</div>
+	</div>
+<!--FOOTER Start-->
+<footer id="footer" class="container">
+	<section id="main-footer">		
+		<span id="footer-span">يمكنكم مراسلتنا عبر هذا الايميل&nbsp;</span><br/>
+		<a href="mailto:phphamh@gmail.com">phphamh@gmail.com</a>
+	</section>
+
+	<section id="per">
+				<p>	جميع الحقوق محفوظة </p>
+				<p id="copy">&copy;Copyrights Safei Ashraf 2020 </p>
+				<p id="saf">
+					<a href="mailto:safei.ashraf@gmail.com?Subject=Hello%20Covid-19" target="_top">Safei.Ashraf@gmail.com</a>
+					</p>
+	</section>
+</footer>
+</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85978035-18"></script>
+<!--BOOTSTRAP Scripts-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--Local Js Files-->
+<script src="/JS/gtag.js"></script>
+<script src="/JS/app.js"></script>
+</html>

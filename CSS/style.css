@@ -1,0 +1,158 @@
+/*
+Reboot
+*/
+*{
+  text-align: center;
+  font-family: 'Amiri', serif;
+ }
+ html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+ }
+
+body{
+        	
+ /*    background: url('https://ifpnews.com/wp-content/uploads/2016/12/Health-Tourism.jpg');
+    background-size: cover;  */
+    background-color:#F6F2FA;
+    height: 100vh;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    width: 99vw;
+    }
+
+/*
+NAVBAR Styling
+*/
+#navbar{
+    width: 100%;
+    background-color: #F8F9FA;
+    border-bottom: 2px solid black;
+    -webkit-box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.75);
+}
+    /*LOGO Img*/
+#logo{
+    width: 60px;
+    height: 60px;
+    }
+
+.nav-item{
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+    a:link {
+  text-decoration: none;
+  margin-right:20px;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
+
+	
+	button{margin:20px;}
+	
+	div{
+	border: 2px solid #58D3F7;
+	margin:5px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+    -o-border-radius:10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.75);
+}
+	
+	#hidden{display: none;}
+	
+	p{ font-size:1.5rem}
+	#tmr{color:blue;}
+	#frst{background:#58D3F7;}
+	
+	.sml{font-size:15px;margin-top:200px;}
+	#showimg{width:200px;height:180px;}
+	
+	#pnts > a{color:yellow;
+	
+    }
+
+    #main-content{
+        border: 2px solid black;
+        
+    }
+    #bg-image{
+        opacity: 0.3;
+        z-index: -999;
+        display: inline;
+    }
+/*
+MORE INFO Page:
+
+*/
+.source-image{
+    width: 80%;
+    height: auto;
+}
+h1{
+    margin-bottom: 20px;
+}
+#more {display: none;}
+/*
+FOOTER
+*/
+
+ #footer{
+        width: 95vw;
+        margin-top: 100px;
+        border: 10px outset rgba(28,110,164,0.9);
+        border-radius: 34px 34px 0px 0px;
+        -webkit-border-radius: 34px 34px 0px 0px;
+        -moz-border-radius: 34px 34px 0px 0px;
+        -ms-border-radius: 34px 34px 0px 0px;
+        -o-border-radius: 34px 34px 0px 0px;
+        padding: 20px;
+}
+#footer-span{
+    font-style: italic;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+#copy
+{
+    font: italic;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-shadow: 5px 2px 5px black;
+    background: -webkit-linear-gradient(#1E90FF, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main-footer
+{
+    font-size: 1.3rem;
+}
+#saf{
+    font-size: 1rem;
+}
+
+
+/*MEDIA Query*/
+@media only screen and (max-width: 767px) {
+     #brand{
+         position: absolute;
+         top: 1rem;
+         left: 20%;
+     }
+     #navbarTogglerDemo02{
+         border: red 1px solid;
+         margin-left: -17px;
+     }
+  }
