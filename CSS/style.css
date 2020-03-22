@@ -119,29 +119,44 @@ FOOTER
         -ms-border-radius: 34px 34px 0px 0px;
         -o-border-radius: 34px 34px 0px 0px;
         padding: 20px;
+        background-color: #244861;
 }
 #main-footer
 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
+#main-footer a{
+    margin-top: 20px;
+    padding: 20px;
+    color:white;
+    font-size: 1.4rem;
+    text-align: center;
 }
 #footer-span{
     font-style: italic;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     margin-bottom: 20px;
 }
+
 #copy
 {
     font: italic;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bolder;
-    text-shadow: 5px 2px 5px black;
-    background: -webkit-linear-gradient(#1E90FF, #333);
+    background: -webkit-linear-gradient(#1E90FF, #A9A9A9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: #606060;
+}
+#per{
+    color: white;
 }
 
-#saf{
-    font-size: 0.8rem;
+#saf a{
+    font-size: 1rem;
+    color:#C8C8C8;
+    font-weight: bolder;
 }
 
 
