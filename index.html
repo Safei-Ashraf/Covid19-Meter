@@ -49,7 +49,6 @@
 	</header>
 
 		<div class="container" id="main-content">
-		<!-- 	<img id="bg-image" src="https://ifpnews.com/wp-content/uploads/2016/12/Health-Tourism.jpg"> -->
 			<div id="numberQuestions" class="text-center">
 			<p>عدد الأسئلة المتبقية:  <span id="tmr">9</span> </p>
 
@@ -60,7 +59,7 @@
 			<div id="hidden">
 				<div class="cls">
 					<h3> هل لديك ارتفاع في درجة الحرارة فوق 38 درجة؟ </h3>
-					<img id="showimg" src="https://media.datacenterdynamics.com/media/images/wissanu99.width-358.jpg" />
+					<img id="showimg"  class="img-thumbnail" src="https://media.datacenterdynamics.com/media/images/wissanu99.width-358.jpg" />
 					<br>
 
 
@@ -71,7 +70,7 @@
 			<div class="cls">
 				<h3>هل لديك سعال شديد او متزايد؟</h3>
 
-				<img id="showimg" src="https://d140vvwqovffrf.cloudfront.net/images/chapters/@2x-artwork/2489.jpg" />
+				<img id="showimg"   class="img-thumbnail" src="https://d140vvwqovffrf.cloudfront.net/images/chapters/@2x-artwork/2489.jpg" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(2)">نعم</button>
@@ -83,7 +82,7 @@
 			<div class="cls">
 				<h3>هل لديك احتقان شديد بالحلق؟</h3>
 
-				<img id="showimg" src="https://haeat.com/wp-content/uploads/2019/09/714.jpg" />
+				<img id="showimg"  class="img-thumbnail" src="https://haeat.com/wp-content/uploads/2019/09/714.jpg" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(1)">نعم</button>
@@ -94,7 +93,7 @@
 			<div class="cls">
 				<h3>هل لديك قيء أو إسهال؟</h3>
 
-				<img id="showimg" src="https://tababah.net/wp-content/uploads/2019/06/diarrhea.jpg" />
+				<img id="showimg"  class="img-thumbnail" src="https://tababah.net/wp-content/uploads/2019/06/diarrhea.jpg" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(0)">نعم</button>
@@ -107,7 +106,7 @@
 			<div class="cls">
 				<h3>هل يوجد مرض مزمن سكر - ضغط - قلب - كلى - كبد ؟؟</h3>
 
-				<img id="showimg" src="https://www.hopemine.com/wp-content/uploads/2019/05/images-3.png" />
+				<img id="showimg"  class="img-thumbnail" src="https://www.hopemine.com/wp-content/uploads/2019/05/images-3.png" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(1)">نعم</button>
@@ -121,7 +120,7 @@
 			<div class="cls">
 				<h3>هل سافرت داخل أو خارج مصر؟ شرم الشيخ أوروبا آسيا...</h3>
 
-				<img id="showimg" src="https://m.aawsat.com/sites/default/files/styles/article_img_top/public/2019/08/18/1565784245952100700.jpg?itok=deUFQKjH" />
+				<img id="showimg"  class="img-thumbnail" src="https://m.aawsat.com/sites/default/files/styles/article_img_top/public/2019/08/18/1565784245952100700.jpg?itok=deUFQKjH" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(5)">نعم</button>
@@ -133,7 +132,7 @@
 			<div class="cls">
 				<h3>هل خالطت شخص مصاب بحالة التهاب تنفسي حاد؟</h3>
 
-				<img id="showimg" src="https://cdn.altibbi.com/cdn/large/1/27/56e815a8f167earticle_79_1.png" />
+				<img id="showimg"  class="img-thumbnail" src="https://cdn.altibbi.com/cdn/large/1/27/56e815a8f167earticle_79_1.png" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(4)">نعم</button>
@@ -146,7 +145,7 @@
 				<h3>هل قمت بزيارة لمكان صحي مستشفى أو غيره ثبت فيه حالة ايجابية لفيروس كورونا؟</h3>
 
 
-				<img id="showimg" src="https://media.falsoo.com/large/2019/9/12/201909120343154315.jpg" />
+				<img id="showimg"  class="img-thumbnail" src="https://media.falsoo.com/large/2019/9/12/201909120343154315.jpg" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(3)">نعم</button>
@@ -159,7 +158,7 @@
 				<h3>هل أنت أحد العاملين بالقطاع الصحي أو العزل الصحي؟</h3>
 
 
-				<img id="showimg" src="https://gfx4arab.com/wp-content/uploads/2017/12/hand-drwan-smiley-doctors_23-2147657907.jpg" />
+				<img id="showimg"  class="img-thumbnail" src="https://gfx4arab.com/wp-content/uploads/2017/12/hand-drwan-smiley-doctors_23-2147657907.jpg" />
 				<br>
 
 				<button type="button" class="btn btn-primary btn-lg" onclick="getScore(2)">نعم</button>
@@ -169,7 +168,7 @@
 
 			<div class="cls">
 					<p id="pnts"></p>
-					<button type="button" id="result" class="btn btn-primary btn-lg" onclick="showResult()">اعرض النتيجة</button>
+					<button type="button" id="result" class="btn btn-outline-info" onclick="showResult()">اعرض النتيجة</button>
 					</div>
 
 
@@ -182,7 +181,7 @@
 					<div id="frst">
 
 
-						 نظام حساب النقاط  
+				 نظام حساب النقاط  
 
 					<br><br>
 					ارتفاع درجة الحراره أكثر من ٣٨ (2)
